@@ -1,6 +1,6 @@
 PROJECT:
-    dt:                 0.01e-6   # Time step (10 ps)
+    dt: 0.01e-9
 
 CPU_TARGET:
     sim:
-        tstop:          10e-6     # Simulation stop time (10 us)
+        tstop: 10e-9

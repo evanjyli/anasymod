@@ -7,7 +7,7 @@
 
 module tb;
     // input is voltage square wave
-    `PWM(0.50, 1e6, in_dig);  // 50% duty, 1 MHz frequency
+    `PWM(0.50, 1e9, in_dig);  // 50% duty, 1 GHz frequency
     `MAKE_CONST_REAL(+1.0, in_hi);
     `MAKE_CONST_REAL(-1.0, in_lo);
     `ITE_REAL(in_dig, in_hi, in_lo, v_in);
